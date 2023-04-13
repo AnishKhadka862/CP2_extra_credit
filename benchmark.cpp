@@ -67,11 +67,6 @@ int main(int argc, char** argv) {
   // Print results
   std::cout << "Total sum calls: " << num_sum_calls << std::endl;
   std::cout << "Elapsed time: " << elapsed_time << " s" << std::endl;
-  std::cout << "Number of times each problem size was executed: ";
-  for (int64_t n : problem_sizes) {
-    int64_t num_executions = num_sum_calls / (n == N_SMALL ? 1 : 256);
-    std::cout << num_executions << " ";
-  }
-  std::cout << std::endl;
+  std::cout << "Number of times each problem size was executed: " << std::endl ;
 }
 
