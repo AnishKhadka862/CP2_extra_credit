@@ -2,7 +2,7 @@
 
 cmake_minimum_required( VERSION 3.5)
 
-project (sum_harness_instructional LANGUAGES CXX)
+project (CP2_extra_credit LANGUAGES CXX)
 
 set(CMAKE_BUILD_TYPE "Release")
 #set(CMAKE_CXX_FLAGS "-Wall")  # uncomment this line to turn on compiler warnings
